@@ -1,0 +1,187 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Arial";
+}
+h1 {
+  margin-left: 20px;
+}
+ul {
+  display: flex;
+  cursor: pointer;
+  list-style-type: none;
+}
+a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 20px;
+  padding: 20px 20px 20px 10px;
+}
+.image {
+  height: 100vh;
+  background-image: url(https://github.com/Anoshkhan/Landing-page/blob/master/src/assets/1.png?raw=true);
+  background-repeat: no-repeat;
+  border-radius: 0 0 110px 110px;
+}
+.container {
+  background-color: #090c31;
+}
+.text h1 {
+  padding-top: 300px;
+  color: white;
+  text-align: right;
+  font-size: 90px;
+  margin-right: 40px;
+}
+.text p {
+  color: white;
+  text-align: right;
+  font-size: 15px;
+  margin-right: 35px;
+}
+.graphics {
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graphics p {
+  font-family: cursive;
+  padding-right: 80px;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+}
+.graphics img {
+  margin-top: 70px;
+}
+.boom {
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  background-color: #090c31;
+}
+.text2 {
+  height: 100vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 200px 200px 0;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 32px;
+}
+.text2 h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #2c2c2c;
+  color: #2c2c2c;
+  padding: 0.8px;
+}
+.text2 p {
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: cursive;
+  padding: 80px;
+}
+.footer {
+  background-color: #fff;
+  color: #2c2c2c;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  padding: 2rem;
+}
+.footer h1 {
+  padding-top: 5rem;
+  color: #5853ff;
+  text-transform: uppercase;
+  font: 700 40px Roboto;
+}
+.footer p {
+  font: 500 19.2px cursive;
+  margin: 20px 0;
+}
+h5 {
+  padding-top: 80px;
+  font: 300 2rem cursive;
+  margin: 16px 0;
+  text-align: center;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+.link a {
+  padding-bottom: 0px;
+  font: 900 16px Roboto;
+  cursor: pointer;
+  color: #5853ff;
+  margin: 5px 0;
+}
+.home4 {
+  display: flex;
+  height: 100vh;
+  justify-content: flex-end;
+  width: 100%;
+}
+.Brands {
+  background-color: #5853ff;
+  border-radius: 100px 0px 0px 100px;
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Brands h1 {
+  color: #fff;
+  text-transform: uppercase;
+  width: 140px;
+  border-bottom: 2px solid #fff;
+}
+article {
+  display: flex;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+article div {
+  margin: 16px;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+article div p {
+  font: 900 19.2px cursive;
+}
